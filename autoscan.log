@@ -1,0 +1,43 @@
+autoscan: warning: missing AC_CHECK_FUNCS([mkdir]) wanted by: 
+	src/pump.c:595
+	src/pump.c:597
+autoscan: warning: missing AC_CHECK_FUNCS([strerror]) wanted by: 
+	src/gui.c:804
+	src/gui.c:815
+	src/gui.c:820
+	src/pump.c:616
+	src/audio-oss.c:222
+	src/audio-oss.c:230
+	src/audio-oss.c:357
+	src/audio-oss.c:377
+	src/audio-oss.c:383
+	src/audio-oss.c:389
+	src/audio-oss.c:395
+	src/audio-oss.c:403
+	src/audio-oss.c:410
+	src/audio-oss.c:417
+	src/audio-oss.c:432
+	src/audio-oss.c:438
+autoscan: warning: missing AC_CHECK_FUNCS([strstr]) wanted by: 
+	src/pump.c:608
+	src/pump.c:625
+autoscan: warning: missing AC_CHECK_HEADERS([malloc.h]) wanted by: 
+	src/effect.h:30
+autoscan: warning: missing AC_CHECK_HEADERS([stdint.h]) wanted by: 
+	src/tubeamp.c:198
+	src/pump.c:406
+	src/tubeamp.h:26
+	src/audio-driver.h:39
+	src/phasor.c:197
+autoscan: warning: missing AC_PREREQ wanted by: 
+	autoscan
+autoscan: warning: missing AC_TYPE_INT16_T wanted by: 
+	src/audio-driver.h:76
+autoscan: warning: missing AC_TYPE_INT32_T wanted by: 
+	src/audio-driver.h:51
+	src/audio-driver.h:77
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	src/effect.h:112
+	src/effect.h:112
+	src/effect.h:140
+	src/main.c:370
